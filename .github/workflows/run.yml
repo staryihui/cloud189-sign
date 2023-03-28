@@ -79,6 +79,8 @@ jobs:
 
         user="${{ secrets.USER }}"
         pwd="${{ secrets.PWD }}"
+        echo -e "${user}"
+        echo -e "${pwd}"
         user_list=()
         pwd_list=()
 
